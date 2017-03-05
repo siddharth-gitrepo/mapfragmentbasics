@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fullMap"
+        android:title="@string/show_complete_map"/>
+    <item android:id="@+id/windowMap"
+        android:title="@string/show_map_window"/>
+    <item android:id="@+id/addMarker"
+        android:title="@string/add_marker_and_move"/>
+    <item android:id="@+id/toggleRecentMarkerVisibility"
+        android:title="@string/toggle_last_marker"/>
+    <item android:id="@+id/removeRecentMarker"
+        android:title="@string/remove_last_marker"/>
+    <item android:id="@+id/removeMarkers"
+        android:title="@string/remove_markers"/>
+    <item android:id="@+id/showCurrentLocation"
+        android:title="@string/show_current_location"/>
+</menu>

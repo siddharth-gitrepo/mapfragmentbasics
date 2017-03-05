@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLayoutLatLng"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtViewLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLatitude"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLatitude"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:text="@string/codedLatitude" />
+
+    <TextView
+        android:id="@+id/txtViewLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLongitude"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLongitude"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:text="@string/codedLongitude" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_custom_marker_icon"
+        android:id="@+id/chkBoxCustomMarker" />
+
+</LinearLayout>

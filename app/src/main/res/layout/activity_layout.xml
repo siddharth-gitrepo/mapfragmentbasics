@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.siproapps.mapstutorial.MapActivity">
+
+    <LinearLayout
+        android:id="@+id/lLayout1"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="#223344aa"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txtLayout1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lLayout1"
+        android:background="#22dea11f"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txtLayout2"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/lLayout1"
+        android:layout_toEndOf="@+id/lLayout1"
+        android:layout_above="@+id/lLayout2"/>
+</RelativeLayout>

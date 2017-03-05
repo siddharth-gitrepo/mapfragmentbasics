@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Map Fragment Basics</string>
+    <string name="txtLatitude">Latitude:</string>
+    <string name="codedLatitude">17.451440</string>
+    <string name="txtLongitude">Longitude:</string>
+    <string name="codedLongitude">78.381090</string>
+    <string name="txtLayout1">This is layout 1</string>
+    <string name="txtLayout2">This is layout 2</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtOk">OK</string>
+    <string name="current_location">Current location.</string>
+    <string name="no_gps">Looks like GPS is disabled.</string>
+    <string name="no_marker_added">No marker(s) added!</string>
+    <string name="marker_clicked">Marker clicked !</string>
+    <string name="marker_dragged">Marker dragged !</string>
+    <string name="show_complete_map">Show Complete Map</string>
+    <string name="show_map_window">Show Map in Window</string>
+    <string name="add_marker_and_move">Add marker and move to location</string>
+    <string name="add_custom_marker">Add custom marker</string>
+    <string name="toggle_last_marker">Toggle last placed marker visibility</string>
+    <string name="remove_last_marker">Remove last placed marker</string>
+    <string name="remove_markers">Remove markers</string>
+    <string name="show_current_location">Show current location</string>
+    <string name="our_example_marker">Our example marker.</string>
+    <string name="long_press_to_drag">Long press to drag.</string>
+    <string name="use_custom_marker_icon">Use custom marker icon</string>
+</resources>
